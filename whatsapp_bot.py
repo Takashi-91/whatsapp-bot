@@ -11,9 +11,9 @@ client = Client(account_sid, auth_token)
 # Function to send a message
 def send_message():
     message = client.messages.create(
-        from_='whatsapp:+17627877142',  # This is the Twilio sandbox number for WhatsApp
+        from_='whatsapp:+17627877142',  
         body='Your pre-set message',
-        to='whatsapp:+27680783232'  # The recipient's WhatsApp number
+        to='whatsapp:+27680783232'  
     )
     print(f'Message sent: {message.sid}')
 
@@ -21,7 +21,7 @@ def send_message():
 
 
 # Schedule the message
-schedule.every().day.at("10:30").do(send_message)  # Set the time you want to send the message
+schedule.every().day.at("10:30").do(send_message) 
 
 while True:
     schedule.run_pending()
