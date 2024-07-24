@@ -23,4 +23,4 @@ Clone this repository to your local machine or create a new Repl on Replit and c
 
 Ensure you have the following dependencies in your `requirements.txt` file:
 
-P.S This was my first project usinggg python and was a big pain in the ass to get running for free without payments so good luck 😂😂😂😂😂😂
+P.S This was my first project using python and was a big pain in the ass to get running for free without payments so good luck 😂😂😂😂😂😂
